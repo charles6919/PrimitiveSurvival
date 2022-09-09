@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T05:05:11.365Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="5RJuBGf8wWOBJmGYPIfY" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-09T05:23:26.999Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="5CjDsKmvVGMLLToHzDBX" version="20.3.0" type="github">
   <diagram id="tjN3QQq6Q8g_qiqY7rnq" name="페이지-1">
     <mxGraphModel dx="2249" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
           <mxGeometry x="40" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QsycQZTnYFEkXIrDFksW-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="294" width="246" height="280" as="geometry" />
+          <mxGeometry x="294" width="246" height="520" as="geometry" />
         </mxCell>
         <mxCell id="QsycQZTnYFEkXIrDFksW-15" value="&lt;b&gt;SERVER&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="357" width="120" height="30" as="geometry" />
@@ -79,7 +79,7 @@
         <mxCell id="QsycQZTnYFEkXIrDFksW-34" value="재화" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=12;" vertex="1" parent="QsycQZTnYFEkXIrDFksW-29">
           <mxGeometry y="90" width="178" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QsycQZTnYFEkXIrDFksW-32" value="업적" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=12;" vertex="1" parent="QsycQZTnYFEkXIrDFksW-29">
+        <mxCell id="QsycQZTnYFEkXIrDFksW-32" value="달성한 업적" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=12;" vertex="1" parent="QsycQZTnYFEkXIrDFksW-29">
           <mxGeometry y="120" width="178" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QsycQZTnYFEkXIrDFksW-38" value="상점 페이지" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
@@ -114,6 +114,30 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="290" y="440" as="sourcePoint" />
             <mxPoint x="340" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QsycQZTnYFEkXIrDFksW-46" value="게임 정보(업데이트)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="330" y="280" width="178" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QsycQZTnYFEkXIrDFksW-47" value="능력 정보" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=12;" vertex="1" parent="QsycQZTnYFEkXIrDFksW-46">
+          <mxGeometry y="30" width="178" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QsycQZTnYFEkXIrDFksW-48" value="아이템 정보" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=12;" vertex="1" parent="QsycQZTnYFEkXIrDFksW-46">
+          <mxGeometry y="60" width="178" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QsycQZTnYFEkXIrDFksW-49" value="적 정보" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=12;" vertex="1" parent="QsycQZTnYFEkXIrDFksW-46">
+          <mxGeometry y="90" width="178" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QsycQZTnYFEkXIrDFksW-50" value="능력/아이템 조합법" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=12;" vertex="1" parent="QsycQZTnYFEkXIrDFksW-46">
+          <mxGeometry y="120" width="178" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QsycQZTnYFEkXIrDFksW-51" value="업적 달성 정보" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=12;" vertex="1" parent="QsycQZTnYFEkXIrDFksW-46">
+          <mxGeometry y="150" width="178" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QsycQZTnYFEkXIrDFksW-52" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.011;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QsycQZTnYFEkXIrDFksW-26" target="QsycQZTnYFEkXIrDFksW-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="425" as="sourcePoint" />
+            <mxPoint x="343.0680000000002" y="139.95000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
