@@ -15,7 +15,7 @@ public class Test1 : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            SceneLoader.LoadScene(1);
+            SceneLoader.LoadScene("1_TitleScene");
         }
     }
 }

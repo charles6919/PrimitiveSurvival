@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class SceneLoader : MonoBehaviour 
 {
-    public static int NextScene;
+    public static string NextScene;
 
     [SerializeField]
     Image _progressBar;
@@ -18,15 +18,15 @@ public class SceneLoader : MonoBehaviour
     }
 
 
-    public static void LoadScene(int index)
-    {
-        NextScene = index;
-        SceneManager.LoadScene(0);
-    }
+    //public static void LoadScene(int index)
+    //{
+    //    NextScene = index;
+    //    SceneManager.LoadScene(0);
+    //}
 
     public static void LoadScene(string sceneName)
     {
-        NextScene = SceneManager.GetSceneByName(sceneName).buildIndex;
+        NextScene = sceneName;
         SceneManager.LoadScene(0);
     }
 
